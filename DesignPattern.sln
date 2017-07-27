@@ -9,6 +9,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Decorator", "Decorator\Deco
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Proxy", "Proxy\Proxy.vcxproj", "{04A15283-C660-425E-B070-770D3A00A18D}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Prototype", "Prototype\Prototype.vcxproj", "{81F5E558-840B-40E4-8276-83D183FD4C6D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -41,6 +43,14 @@ Global
 		{04A15283-C660-425E-B070-770D3A00A18D}.Release|x64.Build.0 = Release|x64
 		{04A15283-C660-425E-B070-770D3A00A18D}.Release|x86.ActiveCfg = Release|Win32
 		{04A15283-C660-425E-B070-770D3A00A18D}.Release|x86.Build.0 = Release|Win32
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Debug|x64.ActiveCfg = Debug|x64
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Debug|x64.Build.0 = Debug|x64
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Debug|x86.ActiveCfg = Debug|Win32
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Debug|x86.Build.0 = Debug|Win32
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Release|x64.ActiveCfg = Release|x64
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Release|x64.Build.0 = Release|x64
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Release|x86.ActiveCfg = Release|Win32
+		{81F5E558-840B-40E4-8276-83D183FD4C6D}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
