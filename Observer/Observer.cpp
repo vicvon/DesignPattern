@@ -100,7 +100,7 @@ public:
     }
 private:
     string name_;
-    weak_ptr<Subject> subject_;
+    weak_ptr<Subject> subject_;  //Subject 包含 Observer的引用, 避免双重引用, 这里使用弱引用
 };
 
 class ConcreteObserverB : public Observer
