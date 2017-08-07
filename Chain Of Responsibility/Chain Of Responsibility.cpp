@@ -100,7 +100,7 @@ int main()
     handler1->setHandler(handler2);
     handler2->setHandler(handler3);
 
-    vector<int> vecReq{1, 3, 5, 11, 15, 20, 25, 35};
+    vector<int> vecReq{ 1, 3, 5, 11, 15, 20, 25, 35 };
 
     cout << "----------Start from handler1----------" << endl;
     for (auto e : vecReq)
